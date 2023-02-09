@@ -3,12 +3,12 @@ plugins {
 }
 
 android {
-    compileSdk 28
+    compileSdk 30
 
     defaultConfig {
         applicationId "com.vuzix.SDKKeyEvent"
-        minSdk 28
-        targetSdk 28
+        minSdk 27
+        targetSdk 30
         versionCode 1
         versionName "1.0"
 

@@ -66,25 +66,25 @@ public class MainActivity extends Activity {
         String styledText;
         switch(i){
             case 1:
-                /**
-                 * Case 1 demonstrates functions for the devices buttons.
-                 * KEYCODE_DPAD_CENTER, KEYCODE_DPAD_LEFT, KEYCODE_DPAD_RIGHT
-                 */
+
+                 //Case 1 demonstrates functions for the devices buttons.
+                 //KEYCODE_DPAD_CENTER, KEYCODE_DPAD_LEFT, KEYCODE_DPAD_RIGHT
+
                 styledText= "<font color='red'>"+text+"</font><br>";
                 break;
             case 2:
-                /**
-                 * Case 2 demonstrates functions for tapping and two finger swiping on the touchpad.
-                 * KEYCODE_DPAD_CENTER, KEYCODE_BACK, KEYCODE_VOLUME_DOWN,
-                 * KEYCODE_VOLUME_UP, KEYCODE_DEL, KEYCODE_FORWARD_DEL
-                 */
+
+                 //Case 2 demonstrates functions for tapping and two finger swiping on the touchpad.
+                 //KEYCODE_DPAD_CENTER, KEYCODE_BACK, KEYCODE_VOLUME_DOWN,
+                 //KEYCODE_VOLUME_UP, KEYCODE_DEL, KEYCODE_FORWARD_DEL
+
                 styledText= "<font color='blue'>"+text+"</font><br>";
                 break;
             case 3:
-                /**
-                 * Case 3 demonstrates functions for one finger swipe feature on the touchpad.
-                 * KEYCODE_DPAD_LEFT, KEYCODE_DPAD_RIGHT, KEYCODE_DPAD_UP, KEYCODE_DPAD_DOWN
-                 */
+
+                 //Case 3 demonstrates functions for one finger swipe feature on the touchpad.
+                 //KEYCODE_DPAD_LEFT, KEYCODE_DPAD_RIGHT, KEYCODE_DPAD_UP, KEYCODE_DPAD_DOWN
+
                 styledText= "<font color='green'>"+text+"</font><br>";
                 break;
             default:
